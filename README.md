@@ -33,6 +33,30 @@ This folder contains 3 notebooks designed to generate, run, and analyze the expe
 
 - `create_data_setting.ipynb`: Generates and saves various data configurations to be used in experiments.
 - `run_exps.ipynb`: Handles training, testing, and saving of models for all experiments.
-- `compare_exps.ipynb`: Loads experiment results and generates comparison plots, as shown in the paper.
+- `compare_exps.ipynb`: Loads experiment results and generates comparison plots.
 
 ---
+
+## Running Experiments with Jupyter Lab
+
+To run the experiments using **Jupyter Lab**, follow these steps:
+1. **Create a virtual environment**
+```bash
+   python3 -m venv .venv
+```
+2. **Activate the virtual environment**
+```bash
+   source .venv/bin/activate
+```
+3. **Install the required dependencies**
+```bash
+pip install -r requirements.txt
+```
+4. **Install the virtual environment as a Jupyter kernel**
+```bash
+python -m ipykernel install --user --name=vqfl-venv
+```
+5. **Launch Jupyter Lab and select the vqfl-venv kernel**
+```bash
+jupyter lab
+```
