@@ -1,6 +1,6 @@
-# Experiments for VQFL — Quantum Week 2025 Submission
+# Experiments for VQFL
 
-This repository contains the experiments associated with the paper submitted to the **Quantum Week 2025** conference, which is currently under review.
+This repository contains the experiments associated with the paper submitted to the **International Conference on Intelligent computing and Its emerging Application 2025 (ICEA 2025)** conference, which is currently under review.
 
 ## Repository Structure
 
